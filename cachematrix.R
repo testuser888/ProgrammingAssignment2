@@ -23,8 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## and checks if the inverse is cached already, if not it
 ## uses the solve() function to return the inverse
 ## NOTE: You must pass the return value of makeCacheMatrix
-	 as the argument to this funtion, *not* the original
-	 square matrix.
+##       as the argument to this funtion, *not* the original
+##       square matrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
